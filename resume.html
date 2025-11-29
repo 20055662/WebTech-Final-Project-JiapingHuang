@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Resume Page</title>
+        <link href="./assets/css/site-output.css" rel="stylesheet">
+    </head>
+
+    <body class="bg-white text-shadowgrey">
+        <header class="sticky top-0 z-50 bg-shadowgrey text-white shadow">
+            <nav class="max-w-6xl mx-auto flex flex-col p-6 md:p-10 relative">
+
+                <!--mobile sitename-->
+                <div class="w-full flex items-center justify-between md:hidden">
+                    <a class="text-xl font-semibold text-pineblue" href="index.html">Resume </a>
+                    <!--Hamburger-->
+                    <button id="menu-btn" class="md:hidden flex flex-col space-y-1">
+                        <span class="block w-6 h-[3px] bg-pineblue transition-all duration-300"></span>
+                        <span class="block w-6 h-[3px] bg-pineblue transition-all duration-300"></span>
+                        <span class="block w-6 h-[3px] bg-pineblue transition-all duration-300"></span>
+                    </button>
+                </div>
+                
+                <!-- Mobile Menu -->
+                <div id="mobile-menu" class="hidden absolute right-0 top-full mt-2 w-48 md:hidden flex flex-col space-y-2 bg-pineblue text-shadowgrey font-bold px-6 py-4">
+                    <a class="hover:text-cerulean" href="index.html">Home</a>
+                    <a class="hover:text-cerulean" href="contact.html">Contact</a>
+                    <a class="hover:text-cerulean" href="about.html">About</a>
+                    <a class="hover:text-cerulean" href="resume.html">Resume</a>
+                    <a class="hover:text-cerulean" href="projects.html">Projects</a>
+                </div>
+
+                <!--desktop sitename-->
+                <div class="hidden md:flex justify-center mb-4">
+                    <a class="text-xl font-semibold text-pineblue" href="index.html">Resume</a>
+                </div>
+                <!--Desktop nav-->
+                <ul class="hidden md:flex justify-center gap-8 text-lg font-bold text-pineblue">
+                    <li>
+                        <a class="hover:text-cerulean transition" href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a class="hover:text-cerulean transition" href="contact.html">Contact</a>
+                    </li>
+                    <li>
+                        <a class="hover:text-cerulean transition" href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a class="hover:text-cerulean transition" href="resume.html">Resume</a>
+                    </li>
+                    <li>
+                        <a class="hover:text-cerulean transition" href="index.html">Projects</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="max-w-6xl mx-auto p-6 md:p-10 grid grid-cols-1 md:grid-cols-3 gap-10">
+
+            <section class="md:col-span-2 space-y-10 shadow-lg p-8 rounded">
+                <div>
+                    <h1 class="text-4xl font-bold text-cerulean">Jiaping Huang </h1>
+                        <p class="text-lg text-irongrey mt-2"> Aspiring Developer</p>
+                </div>
+
+                <div class="space-y-2">
+                    <h2 class="text-2xl font-semibold text-cerulean">Professional Summary</h2>
+                    <p>Motivated and detail-oriented emerging developer with hands-on experience in 
+                        HTML, CSS, JavaScript, Git, and software testing fundamentals. Currently expanding 
+                        into the .NET ecosystem, with a growing foundation in C#, object-oriented programming, 
+                        and backend development concepts. Passionate about building clean, reliable applications 
+                        and improving user experience through thoughtful design, strong problem-solving, 
+                        and continuous learning. Seeking opportunities to grow as a .NET developer, 
+                        with interest in full-stack development, API design, and quality assurance best practices.</p>
+                </div>
+                <hr class="my-4 border-irongrey">
+
+                <div>
+                    <h2 class="text-2xl font-semibold text-cerulean"> Skills</h2>
+
+                    <div class="mb-6">
+                        <h4 class="text-xl font-semibold text-cerulean mb-2">Frontend Development</h3>
+                        <ul class="list-disc list-inside text-irongrey">
+                            <li>HTML5, CSS3</li>
+                            <li>TailwindCSS</li>
+                            <li>JavaScript</li>
+                            <li>Responsive design</li>
+                            <li>Basic UI/UX principles</li>
+                        </ul>
+                    </div>
+
+                    <div class="mb-6">
+                        <h4 class="text-xl font-semibold text-cerulean mb-2">Backend Development</h3>
+                        <ul class="list-disc list-inside text-irongrey">
+                            <li>C#, .NET Fundamentals (.NET 6+)</li>
+                            <li>ASP.NET Core basics</li>
+                            <li>MVC architecture concepts</li>
+                            <li>REST API fundamentals</li>
+                            <li>Entity Framework basics (currently learning)</li>
+                        </ul>
+                    </div>
+
+                    <div class="mb-6">
+                        <h4 class="text-xl font-semibold text-cerulean mb-2">Tools & Version Control</h3>
+                        <ul class="list-disc list-inside text-irongrey">
+                            <li>Git (branching, merging, resolving conflicts)</li>
+                            <li>GitHub (repositories, pull requests, issue tracking)</li>
+                            <li>GitHub Pages deployment</li>
+                            <li>VS Code, Visual Studio</li>
+                            <li>Postman (basic API testing)</li>
+                        </ul>
+                    </div>
+
+                    <div class="mb-6">
+                        <h3 class="text-xl font-semibold text-cerulean mb-2">Soft Skills</h3>
+                        <ul class="list-disc list-inside text-irongrey">
+                            <li>Strong problem-solving and logical reasoning</li>
+                            <li>Fast learner, self-directed study</li>
+                            <li>Good documentation and note-taking habits</li>
+                            <li>Collaboration using GitHub & agile tools</li>
+                            <li>Ability to explain technical concepts simply</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div>
+                    <h2 class="text-2xl font-semibold text-cerulean">Experience</h2>
+                </div>
+
+                <div>
+                    <h2 class="text-2xl font-semibold text-cerulean">Education</h2>
+                </div>
+
+            </section>
+            <aside class="hidden lg:block md:block lg:sticky md:sticky lg:top-24 md:top-24 space-y-6 h-fit ">
+                <div class="bg-white border border-irongrey p-6 rounded-lg shadow space-y-4">
+                <h3 class="text-xl font-semibold text-pineblue">Tech Stack Visual</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-3 py-1 bg-cerulean text-white rounded-full text-sm">HTML</span>
+                        <span class="px-3 py-1 bg-cerulean text-white rounded-full text-sm">CSS/TailwindCSS</span>
+                        <span class="px-3 py-1 bg-cerulean text-white rounded-full text-sm">JavaScript</span>
+                        <span class="px-3 py-1 bg-cerulean text-white rounded-full text-sm">Git & GitHub</span>
+                        <span class="px-3 py-1 bg-cerulean text-white rounded-full text-sm">C#, .NET</span>
+                        <span class="px-3 py-1 bg-cerulean text-white rounded-full text-sm">MVC</span>
+                        <span class="px-3 py-1 bg-cerulean text-white rounded-full text-sm">REST API</span>
+                        <span class="px-3 py-1 bg-cerulean text-white rounded-full text-sm">SQL</span>
+                        <span class="px-3 py-1 bg-cerulean text-white rounded-full text-sm">testing</span>
+                    </div>
+                </div>
+
+                <div class="bg-cerulean text-white p-6 rounded-lg shadow-md space-y-3">
+                    <h3 class="text-2xl font-bold">Quick Info</h3>
+                    <p class="font-bold">Email: Sample@email.com</p>
+                    <p class="font-bold">Location: Perth, WA</p>
+                    <p class="font-bold">GitHub: github.com/20055662</p>
+                </div>
+            </aside>
+        </main>
+
+        <footer class="bg-shadowgrey text-pineblue py-10 mt-12">
+            <div class="text-center font-bold">
+                <p>&copy; 2025 Jiaping Huang. All rights reserved</p>
+                <div class="flex justify-center gap-4 text-sm mt-3">
+                    <a href="#" class="hover:text-cerulean">LinkedIn</a>
+                    <a href="#" class="hover:text-cerulean" >GitHub</a>
+                    <a href="#" class="hover:text-cerulean" >Email</a>
+                </div>
+            </div>
+        </footer>
+
+        <script src="/assets/js/script.js"></script>
+        <script src="/assets/js/contact.js" defer></script>
+    </body>
+</html>
