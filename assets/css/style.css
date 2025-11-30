@@ -1,0 +1,54 @@
+#api-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+
+#ninja-api-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+    max-width: 500px;
+}
+
+#ninja-api-form > div {
+    background-color: #ffffff;
+    border: 1px solid #474F7A;
+    border-radius: 6px;
+    padding: 1rem;
+}
+
+#checkboxContainer label {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+#inputContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+#user-input {
+    width: 100%;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+#ninja-api-form button {
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+#apiResponse {
+    background-color: #ffffff;
+    border-radius: 6px;
+    padding: 1rem;
+    margin-top: 1rem;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+}
