@@ -632,20 +632,12 @@ video {
   margin-top: 0.75rem;
 }
 
-.mt-auto {
-  margin-top: auto;
-}
-
-.mt-4 {
-  margin-top: 1rem;
-}
-
 .mt-5 {
   margin-top: 1.25rem;
 }
 
-.mb-16 {
-  margin-bottom: 4rem;
+.mt-auto {
+  margin-top: auto;
 }
 
 .block {
@@ -693,24 +685,12 @@ video {
   width: 100%;
 }
 
-.w-40 {
-  width: 10rem;
+.max-w-3xl {
+  max-width: 48rem;
 }
 
 .max-w-6xl {
   max-width: 72rem;
-}
-
-.max-w-4xl {
-  max-width: 56rem;
-}
-
-.max-w-2xl {
-  max-width: 42rem;
-}
-
-.max-w-3xl {
-  max-width: 48rem;
 }
 
 .flex-grow {
@@ -761,6 +741,10 @@ video {
   gap: 0.5rem;
 }
 
+.gap-3 {
+  gap: 0.75rem;
+}
+
 .gap-4 {
   gap: 1rem;
 }
@@ -771,10 +755,6 @@ video {
 
 .gap-8 {
   gap: 2rem;
-}
-
-.gap-3 {
-  gap: 0.75rem;
 }
 
 .space-y-1 > :not([hidden]) ~ :not([hidden]) {
@@ -811,12 +791,6 @@ video {
   --tw-space-y-reverse: 0;
   margin-top: calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(1.5rem * var(--tw-space-y-reverse));
-}
-
-.space-x-6 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-x-reverse: 0;
-  margin-right: calc(1.5rem * var(--tw-space-x-reverse));
-  margin-left: calc(1.5rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
 .overflow-hidden {
@@ -857,10 +831,6 @@ video {
   border-color: rgb(74 82 90 / var(--tw-border-opacity, 1));
 }
 
-.border-cerulean\/40 {
-  border-color: rgb(62 120 178 / 0.4);
-}
-
 .bg-cerulean {
   --tw-bg-opacity: 1;
   background-color: rgb(62 120 178 / var(--tw-bg-opacity, 1));
@@ -886,11 +856,6 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
 }
 
-.bg-black {
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity, 1));
-}
-
 .p-3 {
   padding: 0.75rem;
 }
@@ -905,10 +870,6 @@ video {
 
 .p-8 {
   padding: 2rem;
-}
-
-.p-10 {
-  padding: 2.5rem;
 }
 
 .px-3 {
@@ -1082,19 +1043,9 @@ video {
   background-color: rgb(62 120 178 / var(--tw-bg-opacity, 1));
 }
 
-.hover\:bg-pineblue:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(60 120 126 / var(--tw-bg-opacity, 1));
-}
-
 .hover\:text-cerulean:hover {
   --tw-text-opacity: 1;
   color: rgb(62 120 178 / var(--tw-text-opacity, 1));
-}
-
-.hover\:text-pineblue:hover {
-  --tw-text-opacity: 1;
-  color: rgb(60 120 126 / var(--tw-text-opacity, 1));
 }
 
 .hover\:shadow-lg:hover {
@@ -1150,16 +1101,8 @@ video {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
-  .md\:flex-row {
-    flex-direction: row;
-  }
-
   .md\:p-10 {
     padding: 2.5rem;
-  }
-
-  .md\:p-5 {
-    padding: 1.25rem;
   }
 }
 
