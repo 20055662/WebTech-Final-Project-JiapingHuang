@@ -25,27 +25,18 @@ function checkboxclick(clicked)
 }
 
 // Checkbox events
-passwordCheckbox.addEventListener
-(
-    'click', function()
-    {
+passwordCheckbox.addEventListener('click', function(){
         checkboxclick('password');
     }
 );
 
-validateCheckbox.addEventListener
-(
-    'click', function()
-    {
+validateCheckbox.addEventListener('click', function(){
         checkboxclick('validate');
     }
 );
 
 //submitButton events
-submitButton.addEventListener
-(
-    'click', function()
-    {
+submitButton.addEventListener('click', function(){
         apiResponse.textContent = '';
         const inputValue = userInput.value.trim();
         //input validation
@@ -84,23 +75,15 @@ submitButton.addEventListener
         }
 
     //Fetch API data
-    fetch
-    (
-        url,
-        {
+    fetch(url,{
             method: 'GET',
             headers:{'X-Api-Key':API_KEY}
         }
     )
-    .then
-    (
-        function(response)
-        {
+    .then(function(response){
             if(!response.ok)
                 {
-                    return response.text()
-                    .then(function(text)
-                    {
+                    return response.text().then(function(text){
                         throw new Error
                         (
                             'Error:' +(text || response.statusText)
