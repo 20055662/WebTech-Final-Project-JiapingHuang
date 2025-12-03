@@ -13,8 +13,8 @@ document.addEventListener("DOMContentLoaded",()=>{
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
     //Validation Funtion
-    function ValidateForm(e){
-        let valid =true;
+    form.addEventListener("submit", function(e){
+        let valid = true;
 
         if (!nameRegex.test(nameField.value.trim())){
             nameError.classList.remove("hidden");
@@ -40,8 +40,5 @@ document.addEventListener("DOMContentLoaded",()=>{
         if(!valid){
             e.preventDefault();
         }
-    }
-
-    form.addEventListener("submit", ValidateForm);
-
-})
+    });
+});
